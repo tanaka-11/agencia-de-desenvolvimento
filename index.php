@@ -32,7 +32,7 @@ $servicos = [
     <!-- Importação do Bootstrap -->
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet" />
     
-    <!-- Script para adicionar classe após carregar a página -->
+    <!-- Script para adicionar classe de animação após carregar a página -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script>
       $(document).ready(function() {
@@ -111,26 +111,30 @@ $servicos = [
     <h2>Serviços</h2>
     <div class="row">
       <?php foreach ($servicos as $servico) { ?>
+        <?php
+          $tituloFormatado = strtolower(str_replace(' ', '-', $servico['titulo']));
+        ?>
+
         <div class="col-md-4">
           <div class="service-card">
             <!-- Imagem do serviço -->
-            <img src="<?= $servico['imagem']; ?>" class="img-fluid mb-3" alt="<?= $servico['titulo']; ?>">
+            <img src="<?=$servico['imagem']?>" class="img-fluid mb-3" alt="<?=$servico['titulo']?>">
             <!-- Título do serviço -->
-            <h3><?= $servico['titulo']; ?></h3>
+            <h3><?=$servico['titulo']?></h3>
             <!-- Descrição do serviço -->
-            <p><?= $servico['descricao']; ?></p>
+            <p><?=$servico['descricao']?></p>
             <!-- Link para abrir o modal do serviço -->
-            <a href="#" data-toggle="modal" data-target="#modal-<?= strtolower(str_replace(' ', '-', $servico['titulo'])); ?>">Detalhes</a>
+            <a href="#" data-toggle="modal" data-target="#modal-<?= $tituloFormatado?>">Detalhes</a>
           </div>
         </div>
 
         <!-- Modal para cada serviço -->
-        <div class="modal fade" id="modal-<?= strtolower(str_replace(' ', '-', $servico['titulo'])); ?>" tabindex="-1" role="dialog" aria-labelledby="modal-<?= strtolower(str_replace(' ', '-', $servico['titulo'])); ?>-label" aria-hidden="true">
+        <div class="modal fade" id="modal-<?=$tituloFormatado?>" tabindex="-1" role="dialog" aria-labelledby="modal-<?=$tituloFormatado?>-label" aria-hidden="true">
           <div class="modal-dialog" role="document">
             <div class="modal-content">
               <div class="modal-header">
                 <!-- Título do modal -->
-                <h5 class="modal-title" id="modal-<?= strtolower(str_replace(' ', '-', $servico['titulo'])); ?>-label"><?= $servico['titulo']; ?></h5>
+                <h5 class="modal-title" id="modal-<?=$tituloFormatado?>-label"><?=$servico['titulo']?></h5>
                 <!-- Botão para fechar o modal -->
                 <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
                   <span aria-hidden="true">&times;</span>
@@ -138,9 +142,9 @@ $servicos = [
               </div>
               <div class="modal-body">
                 <!-- Imagem do serviço no modal -->
-                <img src="<?= $servico['imagem']; ?>" class="img-fluid mb-3" alt="<?= $servico['titulo']; ?>">
+                <img src="<?=$servico['imagem']?>" class="img-fluid mb-3" alt="<?=$servico['titulo']?>">
                 <!-- Descrição do serviço no modal -->
-                <p><?= $servico['descricao']; ?></p>
+                <p><?=$servico['descricao']?></p>
               </div>
               <div class="modal-footer">
                 <!-- Botão para fechar o modal -->
