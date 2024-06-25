@@ -7,7 +7,7 @@ $servicos = [
         'imagem' => 'https://via.placeholder.com/400x300?text=Desenvolvimento+Web',
     ],
     [
-        'titulo' => 'Design Gráfico',
+        'titulo' => 'UX/UI',
         'descricao' => 'Designs atraentes e personalizados para a sua marca.',
         'imagem' => 'https://via.placeholder.com/400x300?text=Design+Gr%C3%A1fico',
     ],
