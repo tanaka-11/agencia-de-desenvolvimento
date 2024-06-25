@@ -19,7 +19,6 @@ $servicos = [
 ];
 ?>
 
-
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -335,7 +334,6 @@ $servicos = [
 
 </head>
 <body>
-
   <!-- Seção de Destaque (Hero Section) -->
   <section class="hero-section">
     <div class="grid-lines"></div>
@@ -347,7 +345,7 @@ $servicos = [
     </div>
   </section>
 
-  <!-- Seção de Serviços -->
+ <!-- Seção de Serviços -->
   <section id="services" class="services-section">
   <div class="container">
     <h2>Serviços</h2>
@@ -355,9 +353,13 @@ $servicos = [
       <?php foreach ($servicos as $servico) { ?>
         <div class="col-md-4">
           <div class="service-card">
+            <!-- Imagem do serviço -->
             <img src="<?= $servico['imagem']; ?>" class="img-fluid mb-3" alt="<?= $servico['titulo']; ?>">
+            <!-- Título do serviço -->
             <h3><?= $servico['titulo']; ?></h3>
+            <!-- Descrição do serviço -->
             <p><?= $servico['descricao']; ?></p>
+            <!-- Link para abrir o modal do serviço -->
             <a href="#" data-toggle="modal" data-target="#modal-<?= strtolower(str_replace(' ', '-', $servico['titulo'])); ?>">Detalhes</a>
           </div>
         </div>
@@ -367,16 +369,21 @@ $servicos = [
           <div class="modal-dialog" role="document">
             <div class="modal-content">
               <div class="modal-header">
+                <!-- Título do modal -->
                 <h5 class="modal-title" id="modal-<?= strtolower(str_replace(' ', '-', $servico['titulo'])); ?>-label"><?= $servico['titulo']; ?></h5>
+                <!-- Botão para fechar o modal -->
                 <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
                   <span aria-hidden="true">&times;</span>
                 </button>
               </div>
               <div class="modal-body">
+                <!-- Imagem do serviço no modal -->
                 <img src="<?= $servico['imagem']; ?>" class="img-fluid mb-3" alt="<?= $servico['titulo']; ?>">
+                <!-- Descrição do serviço no modal -->
                 <p><?= $servico['descricao']; ?></p>
               </div>
               <div class="modal-footer">
+                <!-- Botão para fechar o modal -->
                 <button type="button" class="btn btn-primary" data-dismiss="modal">Fechar</button>
               </div>
             </div>
@@ -386,6 +393,7 @@ $servicos = [
     </div>
   </div>
   </section>
+
 
   <!-- Seção Sobre Nós -->
   <section id="about" class="about-section">
