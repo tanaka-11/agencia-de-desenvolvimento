@@ -26,6 +26,9 @@ $servicos = [
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DevWeb</title>
 
+    <link rel="icon" href="./src/images/fav.ico" type="image/x-icon">
+
+
     <!-- Importação do Bootstrap -->
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet" />
 
@@ -71,7 +74,7 @@ $servicos = [
       text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
       opacity: 0;
       transform: scale(0.8);
-      transition: opacity 1s ease, transform 1s ease;
+      transition: opacity 2s ease, transform 2s ease;
     }
 
     .hero-section.show-animation h1 {
