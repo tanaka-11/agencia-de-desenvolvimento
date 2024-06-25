@@ -32,13 +32,65 @@ $servicos = [
     <!-- Importação do Bootstrap -->
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet" />
     
-    <!-- Script para adicionar classe de animação após carregar a página -->
+    <!-- Script para adicionar classe após carregar a página -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script>
       $(document).ready(function() {
         $(".hero-section").addClass("show-animation");
       });
     </script>
+
+    <style>
+      /* Modais */
+.modal-content {
+  background-color: #1a1a1a;
+  color: #e0e0e0;
+}
+
+.modal-header {
+  border-bottom: none;
+  background-color: #121212;
+  color: #007bff; /* Cor azul para o texto do cabeçalho */
+  padding: 20px;
+}
+
+.modal-header .close {
+  color: #007bff; /* Cor azul para o botão de fechar */
+  font-size: 1.5em;
+}
+
+.modal-header .close:hover {
+  color: #0056b3; /* Cor azul mais escura ao passar o mouse */
+}
+
+.modal-header .modal-title {
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.modal-body {
+  background-color: #1a1a1a;
+  color: #b0b0b0;
+}
+
+.modal-footer {
+  background-color: #121212;
+  border-top: none;
+}
+
+.modal-footer button {
+  background-color: #007bff;
+  color: white;
+  border-radius: 5px;
+  font-size: 1.2em;
+  border: none;
+  transition: background-color 0.3s;
+}
+
+.modal-footer button:hover {
+  background-color: #0056b3;
+}
+    </style>
 
 </head>
 <body>
