@@ -41,55 +41,55 @@ $servicos = [
     </script>
 
     <style>
-      /* Modais */
-.modal-content {
-  background-color: #1a1a1a;
-  color: #e0e0e0;
-}
+    /* Modais */
+    .modal-content {
+      background-color: #1a1a1a;
+      color: #e0e0e0;
+    }
 
-.modal-header {
-  border-bottom: none;
-  background-color: #121212;
-  color: #007bff; /* Cor azul para o texto do cabeçalho */
-  padding: 20px;
-}
+    .modal-header {
+      border-bottom: none;
+      background-color: #121212;
+      color: #007bff; /* Cor azul para o texto do cabeçalho */
+      padding: 20px;
+    }
 
-.modal-header .close {
-  color: #007bff; /* Cor azul para o botão de fechar */
-  font-size: 1.5em;
-}
+    .modal-header .close {
+      color: #007bff; /* Cor azul para o botão de fechar */
+      font-size: 1.5em;
+    }
 
-.modal-header .close:hover {
-  color: #0056b3; /* Cor azul mais escura ao passar o mouse */
-}
+    .modal-header .close:hover {
+      color: #0056b3; /* Cor azul mais escura ao passar o mouse */
+    }
 
-.modal-header .modal-title {
-  font-size: 2em;
-  font-weight: bold;
-}
+    .modal-header .modal-title {
+      font-size: 2em;
+      font-weight: bold;
+    }
 
-.modal-body {
-  background-color: #1a1a1a;
-  color: #b0b0b0;
-}
+    .modal-body {
+      background-color: #1a1a1a;
+      color: #b0b0b0;
+    }
 
-.modal-footer {
-  background-color: #121212;
-  border-top: none;
-}
+    .modal-footer {
+      background-color: #121212;
+      border-top: none;
+    }
 
-.modal-footer button {
-  background-color: #007bff;
-  color: white;
-  border-radius: 5px;
-  font-size: 1.2em;
-  border: none;
-  transition: background-color 0.3s;
-}
+    .modal-footer button {
+      background-color: #007bff;
+      color: white;
+      border-radius: 5px;
+      font-size: 1.2em;
+      border: none;
+      transition: background-color 0.3s;
+    }
 
-.modal-footer button:hover {
-  background-color: #0056b3;
-}
+    .modal-footer button:hover {
+      background-color: #0056b3;
+    }
     </style>
 
 </head>
