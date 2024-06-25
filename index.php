@@ -387,8 +387,6 @@ $servicos = [
   </div>
   </section>
 
-
-
   <!-- Seção Sobre Nós -->
   <section id="about" class="about-section">
     <div class="container">
