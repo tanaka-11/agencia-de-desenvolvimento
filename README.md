@@ -15,15 +15,17 @@ A ideia por trás desse projeto é auxiliar pessoas e empresas a concretizar sua
 
 ## Serviços Oferecidos:
 
-![](./src/images/servicos.png)
+![Serviços](./src/images/servicos.png)
 
-**- Criação de Sites:** Criamos sites que combinam funcionalidade e estética.
+**- Desenvolvimento Web:** Transformamos suas ideias em sites que combinam funcionalidade, estética e aplicativos funcionais.
 
-**- Design Responsivo:** Lorem
+**- UX/UI:** Lorem
 
-**- Desenvolvimento de Apps:** Transformamos suas ideias em aplicativos funcionais.
+**- SEO:** Melhores tecnicas para rankeamento no Google.
 
-![](./src/images/contato.png)
+## Entre em contato via Formulario
+
+![Contato](./src/images/contato.png)
 
 #### Se você quiser saber mais detalhes ou explorar o projeto, pode visitar o repositório no GitHub (https://github.com/tanaka-11/agencia-de-desenvolvimento)
 
