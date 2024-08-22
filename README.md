@@ -5,7 +5,6 @@
 ## Conceito e Objetivo
 
 ![Seção Hero](./src/images/imagem-hero-site.png)
-Imagem - Hero Section
 
 A ideia por trás desse projeto é auxiliar pessoas e empresas a concretizar suas visões digitais. Imagine que você tem uma ideia inovadora para o seu negócio, mas precisa de ajuda para transformá-la em um produto tangível, como um aplicativo, site ou sistema.
 
