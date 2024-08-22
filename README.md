@@ -1,6 +1,27 @@
 # WebDev - Transformando Ideias em Realidade Digital
 
-## Banco de Dados
+É um projeto que visa transformar ideias em soluções digitais
+
+## Conceito e Objetivo
+
+A ideia por trás desse projeto é auxiliar pessoas e empresas a concretizar suas visões digitais. Imagine que você tem uma ideia inovadora para o seu negócio, mas precisa de ajuda para transformá-la em um produto tangível, como um aplicativo, site ou sistema.
+
+- **Processo de Transformação:**
+  Assim como um escultor vê a beleza oculta em uma pedra bruta, a **WebDev** enxerga o potencial do seu produto, mesmo quando ele existe apenas como uma ideia.
+
+## Serviços Oferecidos:
+
+**- Criação de Sites:** Criamos sites que combinam funcionalidade e estética.
+
+**- Design Responsivo:** Lorem
+
+**- Desenvolvimento de Apps:** Transformamos suas ideias em aplicativos funcionais.
+
+#### Se você quiser saber mais detalhes ou explorar o projeto, pode visitar o repositório no GitHub (https://github.com/tanaka-11/agencia-de-desenvolvimento)
+
+## Futuramente
+
+#### Banco de Dados
 
 - Nome: **webdev**
 
