@@ -8,9 +8,10 @@
 
 A ideia por trás desse projeto é auxiliar pessoas e empresas a concretizar suas visões digitais. Imagine que você tem uma ideia inovadora para o seu negócio, mas precisa de ajuda para transformá-la em um produto tangível, como um aplicativo, site ou sistema.
 
-- **Processo de Transformação:**
-  Assim como um escultor vê a beleza oculta em uma pedra bruta, a **WebDev** enxerga o potencial do seu produto, mesmo quando ele existe apenas como uma ideia.
-  ![Seção Sobre e Depoimentos](./src/images/imagem-sobre-nos.png)
+## Processo de Transformação
+
+Assim como um escultor vê a beleza oculta em uma pedra bruta, a **WebDev** enxerga o potencial do seu produto, mesmo quando ele existe apenas como uma ideia.
+![Seção Sobre e Depoimentos](./src/images/imagem-sobre-nos.png)
 
 ## Serviços Oferecidos:
 
